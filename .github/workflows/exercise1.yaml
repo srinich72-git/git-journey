@@ -3,7 +3,8 @@ name: exercise-1
 
 on:
     push:
-        - main
+        branches:
+            - main
 
 jobs:
     learning:
